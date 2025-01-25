@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Social Network</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header>
+      <h1>Social Network</h1>
+    </header>
+
+    <!-- Profile Section -->
+    <section class="profile">
+      <img src="https://via.placeholder.com/100" alt="Profile Picture" class="profile-pic">
+      <h2 id="username">John Doe</h2>
+      <button id="edit-profile-btn">Edit Profile</button>
+    </section>
+
+    <!-- Post Creation Section -->
+    <section class="create-post">
+      <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+      <button id="post-btn">Post</button>
+    </section>
+
+    <!-- Posts Section -->
+    <section class="posts">
+      <h2>Feed</h2>
+      <ul id="post-list">
+        <!-- Posts will be dynamically added here -->
+      </ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
